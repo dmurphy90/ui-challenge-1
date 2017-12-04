@@ -1,6 +1,6 @@
 header div {
   width: 100%;
-  border: 1px solid grey;
+  outline: solid grey;
   height: 75px;
   background-color: darkgray;
   display: block;
@@ -15,30 +15,39 @@ p {
 
 #div-b {
   width: 100%;
-  border: 1px solid grey;
+  outline: solid grey;
   height: 150px;
   background-color: darkgray;
   display: block;
 }
 
-.cd-content div {
+ul.cd-content {
+  padding: 0;
+}
+
+.cd-content li {
   width: 100%;
-  border: 1px solid grey;
+  outline: solid grey;
   height: 125px;
   background-color: darkgray;
   display: block;
+}
+
+ul.efgh-content {
+  padding: 0;
 }
 
 .efgh-content {
   display: inline-block;
 }
 
-.efgh-content div {
+.efgh-content li{
   width: 240px;
-  border: 0.5px solid grey;
+  outline: solid grey;
   height: 250px;
   background-color: darkgray;
-  display: inline;
+  display: inline-block;
+  list-style: none;
 }
 
 .pull-left {
@@ -49,13 +58,9 @@ p {
   float: right;
 }
 
-.clearfix {
-  clear: both;
-}
-
-#bottom-bar div {
+#bottom-bar {
   width: 100%;
-  border: 1px solid grey;
+  outline: solid grey;
   height: 80px;
   background-color: darkgray;
   display: block;
