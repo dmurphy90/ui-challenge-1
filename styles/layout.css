@@ -21,7 +21,11 @@ p {
   display: block;
 }
 
-.cd-content div {
+ul.cd-content {
+  margin-left: -40px;
+}
+
+.cd-content li {
   width: 100%;
   border: 1px solid grey;
   height: 125px;
@@ -33,12 +37,15 @@ p {
   display: inline-block;
 }
 
-.efgh-content div {
+.efgh-content li{
   width: 240px;
   border: 0.5px solid grey;
   height: 250px;
   background-color: darkgray;
-  display: inline;
+  display: inline-block;
+  list-style: none;
+  margin-right: 40px;
+  margin-left: -40px;
 }
 
 .pull-left {
@@ -49,14 +56,11 @@ p {
   float: right;
 }
 
-.clearfix {
-  clear: both;
-}
-
 #bottom-bar div {
   width: 100%;
   border: 1px solid grey;
   height: 80px;
   background-color: darkgray;
   display: block;
+  margin-top: -4px;
 }
