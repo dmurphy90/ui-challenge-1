@@ -1,6 +1,6 @@
 header div {
   width: 100%;
-  border: 1px solid grey;
+  outline: solid grey;
   height: 75px;
   background-color: darkgray;
   display: block;
@@ -15,22 +15,26 @@ p {
 
 #div-b {
   width: 100%;
-  border: 1px solid grey;
+  outline: solid grey;
   height: 150px;
   background-color: darkgray;
   display: block;
 }
 
 ul.cd-content {
-  margin-left: -40px;
+  padding: 0;
 }
 
 .cd-content li {
   width: 100%;
-  border: 1px solid grey;
+  outline: solid grey;
   height: 125px;
   background-color: darkgray;
   display: block;
+}
+
+ul.efgh-content {
+  padding: 0;
 }
 
 .efgh-content {
@@ -39,13 +43,11 @@ ul.cd-content {
 
 .efgh-content li{
   width: 240px;
-  border: 0.5px solid grey;
+  outline: solid grey;
   height: 250px;
   background-color: darkgray;
   display: inline-block;
   list-style: none;
-  margin-right: 40px;
-  margin-left: -40px;
 }
 
 .pull-left {
@@ -56,11 +58,10 @@ ul.cd-content {
   float: right;
 }
 
-#bottom-bar div {
+#bottom-bar {
   width: 100%;
-  border: 1px solid grey;
+  outline: solid grey;
   height: 80px;
   background-color: darkgray;
   display: block;
-  margin-top: -4px;
 }

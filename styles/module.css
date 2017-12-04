@@ -1,7 +1,7 @@
 @media (min-width: 769px) {
   * {
     margin: 0 auto;
-    width: 966px;
+    width: 960px;
   }
 
   header div {
@@ -22,8 +22,12 @@
     float: left;
   }
 
+  ul.cd-content {
+    padding: 0;
+  }
+
   .cd-content li {
-    width: 380px;
+    width: 377px;
     outline: solid grey;
     height: 200px;
     background-color: darkgray;
@@ -39,6 +43,7 @@
     width: 760px;
     display: inline-flex;
     clear: both;
+    -webkit-padding-start: 0px;
   }
 
 
@@ -61,9 +66,7 @@
     height: 150px;
     background-color: darkgray;
     display: block;
-    margin-top: -4px;
-    margin-left: 205px;
-    margin-top: -1px;
+    margin-right: 0px;
   }
 
 }
